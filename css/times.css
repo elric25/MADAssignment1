@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before{
+    padding: 3px; /*0*/
+    margin: 3px; /*0*/
+    box-sizing: border-box;
+    margin-left: 3px;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif, "Verdana", Georgia;
+    background-image: linear-gradient(to bottom right, green, orange);
+}
+
+h1, h2, h3, h4{
+  font-family: serif, "Segoe UI";
+}
+p{
+
+}
+.container{
+max-width: 1500px;
+
+}
+.subnav{
+display: flex;
+justify-content: flex-end;
+
+}
+.subnav a{
+
+}
+.mainnav{
+display: flex;
+justify-content: space-between;
+
+}
+.mainnav a{
+
+}
+.masthead{
+
+}
+.times-logo{
+
+}
+.masthead h1{
+
+}
+.content{
+
+}
+.content .story{
+
+}
+.story.lead-story{
+
+}
+h1.story-title{
+
+}
+.story img{
+margin: auto;
+text-align: center;
+
+}
+.story p{
+
+}
+.story blockquote{
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+
+}
+p.byline span.author{
+
+}
+p.byline span.pub{
+
+}
+.foot{
+
+}
+.foot p{
+
+}
+
+.Cover{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+height: 30%;
+
+}
